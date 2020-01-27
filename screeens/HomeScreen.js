@@ -3,8 +3,7 @@ import { View, Text, Button ,StyleSheet } from 'react-native';
 import { Header,Icon } from 'react-native-elements';
 
 export class HomeScreen extends React.Component {
-  state = { uname: "User", pass: "1234" };
-
+ 
   render() {
     return (
       <View style={styles.container}>
@@ -14,7 +13,7 @@ export class HomeScreen extends React.Component {
       </Header>
       
         <View style={{flex:1,alignItems:'center',justifyContent:'center'}}>
-        <Text>Welcome XXX</Text>
+        <Text>Welcome XXX {/* uname*/}</Text>
         </View>
       </View>
     );
@@ -28,4 +27,3 @@ const styles =  StyleSheet.create({
   
   }
 })
-
